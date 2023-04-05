@@ -28,6 +28,7 @@ class Game
     if check_answer?
       puts "YES! You are correct."
       if @player1.turn
+        # raise @player1.inspect
         @player1.turn = false
         @player2.turn = true
       else
